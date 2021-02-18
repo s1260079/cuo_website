@@ -12,9 +12,24 @@ import router from "../routes/router.js";
 import App from "../app.vue";
 import axios from "axios";
 import VueAxios from "vue-axios";
+import firebase from 'firebase';
+
+
 Vue.use(Vuex);
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
+
+const config = {
+    apiKey: "AIzaSyDgDuaqc1GIZjzyNgqwUgvoeaIqwjKhEoA",
+    authDomain: "rails-85b56.firebaseapp.com",
+    databaseURL: "https://rails-85b56-default-rtdb.firebaseio.com",
+    projectId: "rails-85b56",
+    storageBucket: "rails-85b56.appspot.com",
+    messagingSenderId: "110232350617",
+    appId: "1:110232350617:web:253053a2399a5cf8652d08",
+    measurementId: "G-TVE51FLLQP"
+}
+firebase.initializeApp(config);
 
 document.addEventListener("DOMContentLoaded", () => {
     const app = new Vue({
