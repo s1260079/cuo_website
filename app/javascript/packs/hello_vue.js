@@ -9,15 +9,28 @@ import Vuex from "vuex"
 import VueRouter from "vue-router";
 import store from "../store/store.js";
 import router from "../routes/router.js";
+import vuetify from "../plugins/vuetify.js";
 import App from "../app.vue";
 import axios from "axios";
 import VueAxios from "vue-axios";
 import firebase from 'firebase';
+import VueAgile from 'vue-agile';
+import Vuetify from 'vuetify';
+import {
+    Hooper,
+    Slide,
+    Pagination as HooperPagination, // ページネーションが必要なときにimport
+    Navigation as HooperNavigation // 左右のナビゲーションが必要なときにimport
+} from 'hooper'
+import 'hooper/dist/hooper.css'
 
 
 Vue.use(Vuex);
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
+Vue.use(VueAgile);
+Vue.use(Hooper, Slide);
+Vue.use(Vuetify);
 
 const config = {
     apiKey: "AIzaSyDgDuaqc1GIZjzyNgqwUgvoeaIqwjKhEoA",
@@ -35,6 +48,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const app = new Vue({
         store,
         router,
+        vuetify,
+        Hooper,
+        Slide,
+        HooperPagination,
+        HooperNavigation,
         render: (h) => h(App),
     }).$mount();
     document.body.appendChild(app.$el);

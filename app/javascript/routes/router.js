@@ -2,10 +2,13 @@ import Vue from "vue";
 import Router from "vue-router";
 Vue.use(Router);
 import Home from "../views/Home.vue";
-import About from "../views/About.vue";
+import LiveInfo from "../views/LiveInfo.vue";
 import Signup from '../views/Signup.vue'
 import Signin from '../views/Signin.vue'
 import Mypage from '../views/Mypage.vue'
+import Member from '../views/Member.vue'
+import Movie from '../views/Movie.vue'
+import Band from '../views/Band.vue'
 
 const router = new Router({
     mode: "history",
@@ -17,8 +20,8 @@ const router = new Router({
             name: 'Home'
         },
         {
-            path: "/about",
-            component: About,
+            path: "/liveinfo",
+            component: LiveInfo,
         },
         {
             path: '/signup',
@@ -31,8 +34,20 @@ const router = new Router({
             component: Signin
         },
         {
-            path: '/mypage',
+            path: '/mypage/:id(\\d+)',
             component: Mypage,
+        },
+        {
+            path: '/member',
+            component: Member,
+        },
+        {
+            path: '/movie',
+            component: Movie,
+        },
+        {
+            path: '/band',
+            component: Band,
         },
     ],
 });
