@@ -1,17 +1,40 @@
 <template>
-  <section id="home">
-    <h1>{{ title }}</h1>
-  </section>
+<div>
+  <hooper></hooper>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+</div>
 </template>
 
+
 <script>
+ import hooper from "../components/Hooper.vue"
 export default {
+  components: {
+      hooper,
+  },
   data() {
-    return {
-      title: "Homeです"
-    };
-  }
-};
+   return {
+     title: "CUO"
+   };
+ }
+}
 </script>
 
 <style lang="scss" scoped>

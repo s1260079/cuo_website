@@ -1,12 +1,14 @@
 <template>
   <header>
-    <span>{{ message }}</span>
     <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
+    <router-link to="/liveinfo">LiveInfo</router-link>
+    <router-link to="/member">Member</router-link>
+    <router-link to="/band">Band</router-link>
+    <router-link to="/movie">Movie</router-link>
     <router-link to="/signin" v-if="!authenticatedUser">Signin</router-link>
     <router-link to="/signup" v-if="!authenticatedUser">Signup</router-link>
-    <router-link to="/mypage">Mypage</router-link>
-    <button @click="signOut" v-if="authenticatedUser">Signout</button>
+    <router-link to="/mypage" v-if="authenticatedUser">Mypage</router-link>
+    <a @click="signOut" v-if="authenticatedUser">Signout</a>
   </header>
 </template>
 <script>

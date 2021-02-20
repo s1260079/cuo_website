@@ -1,41 +1,43 @@
 <template>
-  <div class="signin">
-    <h2>Sign in</h2>
-    <input type="text" placeholder="email" v-model="username">
-    <input type="password" placeholder="Password" v-model="password">
-    <button @click="signIn">Signin</button>
-    <p>You don't have an account?
-      <router-link to="/signup">create account now!!</router-link>
-    </p>
+  <div class="signInWrapper">
+    <h1>Welcome to CUO</h1>
+
+    <div class="inputWrapper">
+      <div class="loginTitle">
+      </div>
+      <div class="in">
+        <input class="input mInput" placeholder="メールアドレス" v-model="username"/>
+        <input type='password' class="input pInput" placeholder="パスワード" v-model="password"/>
+      </div>
+      <button class="loginBtn" @click="signIn()">ログイン</button>
+      <p class="alert">{{ message }}</p>
+      <router-link to="/signUp">
+        <button class="loginBtn">新規登録</button>
+      </router-link>
+    </div>
   </div>
 </template>
 
 <script>
 import firebase from 'firebase'
-
-
 export default {
-  name: 'Signin',
-  data: function () {
+  data () {
     return {
       username: '',
       password: '',
-      idToken: null
+      message: ''
     }
   },
   methods: {
-    updateIdToken(idToken) {
-        this.idToken = idToken;
-     },
-    signIn: function () {
+    signIn() {
+      this.message = ''
       firebase.auth().signInWithEmailAndPassword(this.username, this.password).then(
-        user => {
-          alert('Success!')
-          // this.updateIdToken(response.data.idToken)
+        user => { // eslint-disable-line
+          // alert('Success!')
           this.$router.push('/')
         },
-        err => {
-          alert(err.message)
+        err => { // eslint-disable-line
+          this.message = 'メールアドレスまたはパスワードが違います。'
         }
       )
     }
@@ -43,6 +45,81 @@ export default {
 }
 </script>
 
-<style scoped>
- /* 省略 */
+<style lang="scss">
+.signInWrapper {
+  width: 320px;
+  margin: auto;
+  h1 {
+    color: rgb(68, 165, 33);
+    font-weight: 900;
+    margin-top: 80px;
+    font-size: 30px;
+  }
+  .inputWrapper {
+    width: 90%;
+    margin: auto;
+    .loginTitle {
+      width: 100%;
+      h2 {
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: normal;
+        background-color: white;
+        border: 1px solid rgb(201, 205, 210);
+        margin-bottom: 0;
+        padding: 8px 0;
+        box-sizing: border-box;
+      }
+      .mlogin {
+        border-right: 0 solid rgb(201, 205, 210);
+      }
+      .qlogin {
+        background-color: rgb(236, 236, 236);
+      }
+    }
+    .in {
+      border-right: 1px solid rgb(201, 205, 210);
+      border-left: 1px solid rgb(201, 205, 210);
+      border-bottom: 1px solid rgb(201, 205, 210);
+      input {
+        border: 0;
+      }
+      .input {
+        padding: 8px;
+        min-width: 100%;
+        display: inline;
+        margin: auto;
+        box-sizing: border-box;
+        border-color: rgb(201, 205, 210);
+      }
+      .mInput {
+        border-top: 1px solid rgb(201, 205, 210);
+        border-bottom: 1px solid rgb(201, 205, 210);
+      }
+    }
+    .plogin {
+      font-size: 12px;
+    }
+    .alert {
+      color: red;
+      font-size: 12px;
+    }
+    .loginBtn {
+      color: #2c3e50;
+      font-size: 16px;
+      margin-top: 6px;
+      background-color: white;
+      padding: 8px 0;
+      width: 100%;
+      border-color: rgb(201, 205, 210);
+    }
+    .autoLogin {
+      text-align: left;
+      font-size: 12px;
+    }
+
+  }
+}
 </style>
