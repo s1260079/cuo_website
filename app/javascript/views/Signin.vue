@@ -50,7 +50,7 @@ export default {
   width: 320px;
   margin: auto;
   h1 {
-    color: rgb(68, 165, 33);
+    color: black;
     font-weight: 900;
     margin-top: 80px;
     font-size: 30px;

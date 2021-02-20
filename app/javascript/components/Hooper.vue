@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
   <agile ref="main" :options="options1" :as-nav-for="asNavFor1" class="main">
     <div class="slide" v-for="(slide, index) in slides" :key="index" :class="`slide--${index}`">
       <img :src="slide">
@@ -27,10 +27,12 @@
       asNavFor1: [],
       asNavFor2: [],
       slides: [
-        require('./band6.JPG'),
-        require('./band1.jpg'),
-        require('./band4.jpg'),
-        require('./band8.JPG')
+        require('./images/band6.JPG'),
+        require('./images/band9.JPG'),
+        require('./images/band12.JPG'),
+        // require('./images/band10.JPG'),
+        require('./images/band7.JPG'),
+        require('./images/band11.JPG')
       ],
       options1: {
       dots: false,
