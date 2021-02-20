@@ -1,5 +1,7 @@
 <template>
   <header>
+    <div class="container">
+    <p>CUO official website</p>
     <router-link to="/">Home</router-link>
     <router-link to="/liveinfo">LiveInfo</router-link>
     <router-link to="/member">Member</router-link>
@@ -9,6 +11,7 @@
     <router-link to="/signup" v-if="!authenticatedUser">Signup</router-link>
     <router-link to="/mypage" v-if="authenticatedUser">Mypage</router-link>
     <a @click="signOut" v-if="authenticatedUser">Signout</a>
+    </div>
   </header>
 </template>
 <script>
@@ -46,10 +49,10 @@
 };
 </script>
 <style lang="scss" scoped>
-  $background-color: skyblue;
+  $background-color: white;
   header {
     width: 100%;
-    height: 80px;
+    height: 60px;
     background-color: $background-color;
     display: flex;
     flex-direction: row;
@@ -57,6 +60,9 @@
     a {
       display: inline-block;
       margin: 0 20px;
-    }
+    };
+    p {
+      color: burlywood;
+    };
   }
 </style>
