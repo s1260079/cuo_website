@@ -1,0 +1,1 @@
+{"ast":null,"code":"/**\n * Throttle methods by lodash\n */\nimport throttle from 'lodash.throttle';\nvar mixin = {\n  created: function created() {\n    this.goTo = throttle(this.goTo, this.throttleDelay);\n    this.getWidth = throttle(this.getWidth, 500);\n  }\n};\nexport default mixin;","map":null,"metadata":{},"sourceType":"module"}

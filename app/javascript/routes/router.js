@@ -9,6 +9,8 @@ import Mypage from '../views/Mypage.vue'
 import Member from '../views/Member.vue'
 import Movie from '../views/Movie.vue'
 import Band from '../views/Band.vue'
+import BandCreate from '../views/BandCreate.vue'
+import BandEdit from '../views/BandEdit.vue'
 
 const router = new Router({
     mode: "history",
@@ -48,6 +50,14 @@ const router = new Router({
         {
             path: '/band',
             component: Band,
+        },
+        {
+            path: '/bandcreate',
+            component: BandCreate,
+        },
+        {
+            path: '/bandedit/:id(\\d+)',
+            component: BandEdit,
         },
     ],
 });
