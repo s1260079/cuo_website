@@ -1,0 +1,30 @@
+{
+  "application.js": "/packs/js/application-07e792d2b65403c647a1.js",
+  "application.js.map": "/packs/js/application-07e792d2b65403c647a1.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-07e792d2b65403c647a1.js"
+      ],
+      "js.map": [
+        "/packs/js/application-07e792d2b65403c647a1.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-6d3c97fabb27702af0af.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-6d3c97fabb27702af0af.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-6d3c97fabb27702af0af.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-6d3c97fabb27702af0af.js.map",
+  "media/components/images/Twitter.jpg": "/packs/media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg",
+  "media/components/images/band11.JPG": "/packs/media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG",
+  "media/components/images/band12.JPG": "/packs/media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG",
+  "media/components/images/band6.JPG": "/packs/media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG",
+  "media/components/images/band7.JPG": "/packs/media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG",
+  "media/components/images/band9.JPG": "/packs/media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG"
+}

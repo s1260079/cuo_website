@@ -1,38 +1,42 @@
 <template>
-  <div>
-    <h1>Mypage</h1>
-    <form>
-      <div class="row">
-        <div>
-          <input placeholder="username" type="text" class="validate" v-model="user.username" required="required">
-        </div>
+  <div class="container">
+    <h1 style="text-align:center">Mypage</h1>
+    <div class="box">
+      <span class="item-name">
+        <v-text-field placeholder="名前" single-line solo v-model="user.username"></v-text-field>
+        <v-text-field placeholder="パート" single-line solo v-model="user.part" ></v-text-field>
+      </span>
+       <div class="textarea-wrap">
+         <textarea placeholder="好きなバンド、ジャンルなど"  rows="8" cols="80" v-model="user.likeBand"></textarea>
+       </div>
+       <div class="textarea-wrap">
+         <textarea placeholder="一言"  rows="8" cols="80" v-model="user.message"></textarea>
+       </div>
+       <v-text-field placeholder="ユーザーを　”消去”　する際はここにパスワードを入力してください" single-line solo v-model="passwd2"></v-text-field>
+       <p style="text-align:center">
+         <v-btn class="resisterBtn" v-on:click="updateUser">入力完了</v-btn>
+       </p>
+       <p style="text-align:center">
+         <v-btn class="btn #e53935 red darken-1" v-on:click="deleteUser(user.id)">削除</v-btn>
+       </p>
+       <div class="alert">
+        <p>{{ message }}</p>
+        <p class="created">{{ created }}</p>
       </div>
-      <div class="row">
-        <div>
-          <input placeholder="part" type="text" class="validate" v-model="user.part" required="required">
-        </div>
-      </div>
-      <div class="row">
-        <div>
-          <input placeholder="likeBand" type="text" class="validate" v-model="user.likeBand" required="required">
-        </div>
-      </div>
-      <div>
-        <div>
-          <input placeholder="message" type="text" class="validate" v-model="user.message" required="required">
-        </div>
-      </div>
-      <div class="btn" v-on:click="updateUser">情報を変更</div>
-    </form>
+    </div>
   </div>
 </template>
 
 <script>
   import axios from 'axios';
+  import firebase from 'firebase';
   export default {
     data: function () {
     return {
-      user: {}
+      passwd2: '',
+      user: {},
+      message: '',
+      created: '',
     }
   },
     mounted () {
@@ -56,9 +60,59 @@
             this.errors = error.response.data.errors;
           }
         });
+      },
+      pass_vali() {
+      if(this.user.password.length = 0) {
+        this.message = '※ パスワードを入力してください'
+        return true
+      }
+      else return false
+    },
+      pass12_vali() {
+      if(this.user.password != this.passwd2) {
+        this.message = '※ パスワードが登録済みパスワードと一致しません。'
+        return true
+      }
+      else return false
+    },
+      deleteUser(id) {
+        if( this.pass_vali() ) return
+        if( this.pass12_vali() ) return
+      axios.delete(`/api/users/${id}`);
+      firebase.auth().signOut().then(res => {
+        this.$router.push({ path: '/member' });
+        })
       }
     }
   }
 </script>
 
-<style scoped></style>
+<style scoped>
+.alert {
+  height: 18px;
+  font-size: 12px;
+  text-align: left;
+  color: red;
+ }
+.box {
+  margin: auto;
+}
+h1 {
+    color: black;
+    /* background-color: #F8F8FF; */
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+</style>

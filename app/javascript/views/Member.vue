@@ -1,15 +1,22 @@
 <template>
   <div class="container">
-    <h1 class="#f3e5f5 purple lighten-5 center">Members</h1>
-    <div>
-      <div v-for="user in users" :key="user.id">
-        <div>
-          <span v-on:click="setUserInfo(user.id)">
-            {{ user.username }}
-          </span>
-        </div>
-      </div>
-    </div>
+    <h1 style="text-align:center">Members</h1>
+    <table class="display" style="width:100%" >
+      <thead style="text-align:left">
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Part</th>
+        </tr>
+      </thead>
+      <tbody style="text-align:left">
+        <tr v-for="user in users" :key="user.id" v-on:click="setUserInfo(user.id)">
+          <td>{{user.id}}</td>
+          <td>{{user.username}}</td>
+          <td>{{user.part}}</td>
+        </tr>
+      </tbody>
+    </table>
     <div class="row" v-show="userInfoBool">
       <div>
         <div>
@@ -19,16 +26,15 @@
               【{{ userInfo.username }}】
             </span>
             <div class="detail">
-              ・part：{{ userInfo.part }}
+              ・パート：{{ userInfo.part }}
             </div>
             <div class="detail">
-              ・likeBand：{{ userInfo.likeBand }}
+              ・好きなバンド、ジャンルなど：{{ userInfo.likeBand }}
             </div>
             <div class="detail">
-              ・message：{{ userInfo.message }}
+              ・一言：{{ userInfo.message }}
             </div>
             <router-link :to="{ path: `/mypage/${userInfo.id}` }" class="btn" v-show="authenticatedUser">編集</router-link>
-            <!-- <button class="btn #e53935 red darken-1" v-on:click="deleteUser(userInfo.id)" v-show="authenticatedUser">削除</button> -->
           </div>
         </div>
       </div>
@@ -85,14 +91,6 @@
       }
         });
       },
-      deleteUser(id) {
-      axios.delete(`/api/users/${id}`).then(res => {
-        this.users = [];
-        this.userInfo = '';
-        this.userInfoBool = false;
-        this.fetchUsers();
-        })
-      }
     },
     // updateUser() {
     //     axios
@@ -110,4 +108,19 @@
   }
 </script>
 
-<style scoped></style>
+<style scoped>
+h1 {
+    color: black;
+    /* background-color: #F8F8FF; */
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+table {
+  background-color: #F8F8FF;
+}
+.row {
+  background-color: white;
+}
+</style>

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import VueAgile from './Agile.vue';\n\nvar install = function install(Vue) {\n  Vue.component('agile', VueAgile);\n};\n\nexport default {\n  install: install\n};\nexport { VueAgile };","map":null,"metadata":{},"sourceType":"module"}
