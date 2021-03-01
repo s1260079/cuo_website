@@ -9,13 +9,13 @@
         <input type='password' class="input pInput" placeholder="パスワード" v-model="user.password"/>
         <input type='password' class="input p2Input" placeholder="パスワード（確認用）" v-model="password2"/>
       </div>
-      <button class="Btn" @click="signUp()">新規登録</button>
+      <v-btn class="Btn loginBtn" @click="signUp()">新規登録</v-btn>
       <div class="alert">
         <p>{{ message }}</p>
         <p class="created">{{ created }}</p>
       </div>
       <router-link to="/signIn">
-        <button class="Btn loginBtn">ログイン画面</button>
+        <v-btn class="Btn loginBtn">ログイン画面</v-btn>
       </router-link>
     </div>
   </div>
