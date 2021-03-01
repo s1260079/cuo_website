@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1 style="text-align:center">Members</h1>
+    <div class="c">
     <table class="display" style="width:100%" >
       <thead style="text-align:left">
         <tr>
@@ -38,6 +39,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
   </div>
 </template>
@@ -109,6 +111,10 @@
 </script>
 
 <style scoped>
+.c{
+  width: 800px;
+  margin: auto;
+}
 h1 {
     color: black;
     /* background-color: #F8F8FF; */

@@ -7,10 +7,12 @@
     </div>
     <div>
       <span class="c" v-for="band in bands" :key="band.id" v-on:click="ShowBtn(band.id)">
+        <router-link :to="{ path: `/bandedit/${band.id}` }" style="text-decoration:none;" >
         <div style="text-align:center" class="table">
             <p class="title-font">{{ band.bandTitle }}</p>
             <p>{{ band.bandContent }}</p>
         </div>
+        </router-link>
         <div class="c"></div>
       </span>
     </div>
@@ -75,9 +77,11 @@ h1 {
     font-size: 30px;
   }
 .table {
-  background-color: #F8F8FF;
+  color: black;
+  text-decoration:none;
+  background-color: #EEEEEE;
   margin-top: 20px;
-  width: 350px;
+  width: 600px;
   margin: auto;
 }
 .c {

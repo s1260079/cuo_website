@@ -9,10 +9,10 @@
         <input class="input mInput" placeholder="メールアドレス" v-model="username"/>
         <input type='password' class="input pInput" placeholder="パスワード" v-model="password"/>
       </div>
-      <button class="loginBtn" @click="signIn()">ログイン</button>
+      <v-btn class="loginBtn" @click="signIn()">ログイン</v-btn>
       <p class="alert">{{ message }}</p>
       <router-link to="/signUp">
-        <button class="loginBtn">新規登録</button>
+        <v-btn class="loginBtn">新規登録</v-btn>
       </router-link>
     </div>
   </div>

@@ -14,7 +14,7 @@
        </div>
        <v-text-field placeholder="ユーザーを　”消去”　する際はここにパスワードを入力してください" single-line solo v-model="passwd2"></v-text-field>
        <p style="text-align:center">
-         <v-btn class="resisterBtn" v-on:click="updateUser">入力完了</v-btn>
+         <v-btn type='password' class="resisterBtn" v-on:click="updateUser">入力完了</v-btn>
        </p>
        <p style="text-align:center">
          <v-btn class="btn #e53935 red darken-1" v-on:click="deleteUser(user.id)">削除</v-btn>
@@ -62,7 +62,7 @@
         });
       },
       pass_vali() {
-      if(this.user.password.length = 0) {
+      if(this.passwd2.length < 1) {
         this.message = '※ パスワードを入力してください'
         return true
       }
@@ -78,8 +78,9 @@
       deleteUser(id) {
         if( this.pass_vali() ) return
         if( this.pass12_vali() ) return
-      axios.delete(`/api/users/${id}`);
-      firebase.auth().signOut().then(res => {
+        firebase.auth().signOut()
+      axios.delete(`/api/users/${id}`)
+      .then(res => {
         this.$router.push({ path: '/member' });
         })
       }

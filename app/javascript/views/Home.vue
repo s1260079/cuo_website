@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="c">
   <hooper></hooper>
   <h1 style="text-align:center">C U O</h1>
   <h1 style="text-align:center">  Comfort Utopian Orchestra</h1>
@@ -35,6 +35,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.c{
+  width: 800px;
+  margin: auto;
+}
 h1 {
     color: black;
     font-weight: 900;
