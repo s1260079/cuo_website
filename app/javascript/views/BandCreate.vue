@@ -1,19 +1,17 @@
 <template>
   <div class="container">
-    <h1 class="#f3e5f5 purple lighten-5 center">Bandの登録</h1>
-    <form class="col">
-      <div class="row">
-        <div class="input-field">
-          <input placeholder="Title" type="text" class="validate" v-model="band.bandTitle" required="required">
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field">
-          <input placeholder="Content" type="text" class="validate" v-model="band.bandContent" required="required">
-        </div>
-      </div>
-      <button class="btn btn-info waves-effect waves-light" v-on:click="createBand">Bandを登録</button>
-    </form>
+    <h1 style="text-align:center">Bandの登録</h1>
+    <div class="box">
+      <span class="item-name">
+        <v-text-field label="バンド名" single-line solo v-model="band.bandTitle"></v-text-field>
+      </span>
+       <div class="textarea-wrap">
+         <textarea placeholder="メンバー構成、一言"  rows="8" cols="80" v-model="band.bandContent" ></textarea>
+       </div>
+       <p style="text-align:center">
+         <v-btn class="resisterBtn" v-on:click="createBand">Bandを登録</v-btn>
+       </p>
+    </div>
   </div>
 </template>
 
@@ -41,4 +39,26 @@
   }
 </script>
 
-<style scoped></style>
+<style scoped>
+.box {
+  margin: auto;
+}
+h1 {
+    color: black;
+    /* background-color: #F8F8FF; */
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+textarea{
+  width: 100%;
+  height: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+</style>

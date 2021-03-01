@@ -1,23 +1,18 @@
 <template>
   <div class="container">
-    <h1 class="#f3e5f5 purple lighten-5 center">Bands</h1>
-    <router-link to="/bandcreate">Bandの登録</router-link>
-    <div class="row #e3f2fd blue lighten-5">
-      <div class="col s4 m6" v-for="band in bands" :key="band.id">
-      <div class="col s12 m12">
-        <div class="card blue-grey darken-1">
-          <div class="card-content white-text">
-            <span class="card-title">
-              【{{ band.bandTitle }}】
-            </span>
-            <div class="detail">
-              ・content：{{ band.bandContent }}
-            </div>
-            <router-link :to="{ path: `bandedit/${band.id}` }" class="btn">Bandの編集</router-link>
-          </div>
+    <h1 style="text-align:center">Band Data</h1>
+    <div style="text-align:center">
+      <router-link to="/bandcreate" >Bandの登録はこちら</router-link>
+      <div class="c"></div>
+    </div>
+    <div>
+      <span class="c" v-for="band in bands" :key="band.id" v-on:click="ShowBtn(band.id)">
+        <div style="text-align:center" class="table">
+            <p class="title-font">{{ band.bandTitle }}</p>
+            <p>{{ band.bandContent }}</p>
         </div>
-      </div>
-      </div>
+        <div class="c"></div>
+      </span>
     </div>
   </div>
 </template>
@@ -33,6 +28,7 @@
         bandInfo: {},
         bandInfoBool: false,
         bands: [],
+        showbtn: '',
       }
     },
     mounted: function() {
@@ -53,9 +49,45 @@
           this.bandInfo = res.data;
           this.bandInfoBool = true;
         });
+      },
+      deleteBand(id) {
+      axios.delete(`/api/bands/${id}`).then(res => {
+        this.bands = [];
+        this.bandInfo = '';
+        this.bandInfoBool = false;
+        this.fetchBands();
+        })
+      },
+      ShowBtn(id) {
+        this.$router.push({ path: `/bandedit/${id}` });
       }
     }
   }
 </script>
 
-<style scoped></style>
+<style scoped>
+h1 {
+    color: black;
+    /* background-color: #F8F8FF; */
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+.table {
+  background-color: #F8F8FF;
+  margin-top: 20px;
+  width: 350px;
+  margin: auto;
+}
+.c {
+  margin-top: 20px;
+}
+p {
+  white-space: pre-wrap;
+}
+.title-font{
+  font-weight: 600;
+  font-size: 20px;
+}
+</style>

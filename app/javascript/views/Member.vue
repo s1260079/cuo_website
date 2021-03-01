@@ -26,16 +26,15 @@
               【{{ userInfo.username }}】
             </span>
             <div class="detail">
-              ・part：{{ userInfo.part }}
+              ・パート：{{ userInfo.part }}
             </div>
             <div class="detail">
-              ・likeBand：{{ userInfo.likeBand }}
+              ・好きなバンド、ジャンルなど：{{ userInfo.likeBand }}
             </div>
             <div class="detail">
-              ・message：{{ userInfo.message }}
+              ・一言：{{ userInfo.message }}
             </div>
             <router-link :to="{ path: `/mypage/${userInfo.id}` }" class="btn" v-show="authenticatedUser">編集</router-link>
-            <button class="btn #e53935 red darken-1" v-on:click="deleteUser(userInfo.id)" v-show="authenticatedUser">削除</button>
           </div>
         </div>
       </div>
@@ -92,14 +91,6 @@
       }
         });
       },
-      deleteUser(id) {
-      axios.delete(`/api/users/${id}`).then(res => {
-        this.users = [];
-        this.userInfo = '';
-        this.userInfoBool = false;
-        this.fetchUsers();
-        })
-      }
     },
     // updateUser() {
     //     axios
@@ -128,5 +119,8 @@ h1 {
   }
 table {
   background-color: #F8F8FF;
+}
+.row {
+  background-color: white;
 }
 </style>
