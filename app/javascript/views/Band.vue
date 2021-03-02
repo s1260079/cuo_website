@@ -6,11 +6,15 @@
       <div class="c"></div>
     </div>
     <div>
-      <span class="c" v-for="band in bands" :key="band.id" v-on:click="ShowBtn(band.id)">
+      <span class="c" v-for="band in bands" :key="band.id">
         <router-link :to="{ path: `/bandedit/${band.id}` }" style="text-decoration:none;" >
         <div style="text-align:center" class="table">
             <p class="title-font">{{ band.bandTitle }}</p>
             <p>{{ band.bandContent }}</p>
+            <p>一言：{{ band.message }}</p>
+            <p style="text-align:center">
+               <v-btn v-if='hantei' class="btn #e53935 red darken-1" v-on:click="deleteBand(band.id)">削除</v-btn>
+            </p>
         </div>
         </router-link>
         <div class="c"></div>
@@ -22,11 +26,14 @@
 <script>
   import Vue from 'vue'
   import axios from 'axios'
+  import firebase from 'firebase'
 
   export default {
     name: 'bandHome',
     data: function() {
       return {
+        email: '',
+        hantei: '',
         bandInfo: {},
         bandInfoBool: false,
         bands: [],
@@ -35,8 +42,18 @@
     },
     mounted: function() {
       this.fetchBands();
+      this.firebase();
     },
     methods: {
+      firebase: function(){
+        this.use = firebase.auth().currentUser;
+        if (this.use != null) {
+            this.email = this.use.email;
+            if(this.email == 's1260079@u-aizu.ac.jp'){
+              this.hantei= true;
+            }
+        }
+      },
       fetchBands() {
         axios.get('/api/bands').then((res) => {
           for(var i = 0; i < res.data.bands.length; i++) {
@@ -54,15 +71,13 @@
       },
       deleteBand(id) {
       axios.delete(`/api/bands/${id}`).then(res => {
+        this.$router.push({ path: '/band' });
         this.bands = [];
         this.bandInfo = '';
         this.bandInfoBool = false;
         this.fetchBands();
         })
       },
-      ShowBtn(id) {
-        this.$router.push({ path: `/bandedit/${id}` });
-      }
     }
   }
 </script>

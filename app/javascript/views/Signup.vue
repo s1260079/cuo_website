@@ -1,11 +1,12 @@
 <template>
   <div class="signUpWrapper">
-    <h1>Welcome to CUO</h1>
+    <h1 style="text-align:center">Welcome to CUO</h1>
 
     <div class="inputWrapper">
       <div class="in">
         <input class="input mInput" placeholder="ユーザーネーム" v-model="user.username"/>
         <input class="input mInput" placeholder="メールアドレス" v-model="user.email"/>
+        <input class="input mInput" placeholder="学籍番号（先頭に”アルファベット”を含む）" v-model="user.studentId"/>
         <input type='password' class="input pInput" placeholder="パスワード" v-model="user.password"/>
         <input type='password' class="input p2Input" placeholder="パスワード（確認用）" v-model="password2"/>
       </div>
@@ -37,6 +38,7 @@ export default {
         part: '',
         likeBand: '',
         message: '',
+        studentId: '',
       }
     }
   },
@@ -65,6 +67,8 @@ export default {
     },
     signUp() {
       if( this.mail_vali() ) return
+      if (!this.user.studentId) return
+      if (!this.user.username) return;
       if( this.pass_vali() ) return
       if( this.pass12_vali() ) return
       this.created = 'しばらくお待ちください。'
@@ -86,6 +90,7 @@ export default {
       this.user.password = ''
       this.password2 = ''
       this.message = ''
+      this.studentId = ''
     }
   }
 }
@@ -94,7 +99,7 @@ export default {
 <style lang="scss">
 .signUpWrapper {
 
-  width: 320px;
+  width: 450px;
   margin: auto;
   h1 {
     color: black;

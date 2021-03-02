@@ -5,3 +5,4 @@ json.password    @user.password
 json.part        @user.part
 json.likeBand    @user.likeBand
 json.message     @user.message
+json.studentId     @user.studentId

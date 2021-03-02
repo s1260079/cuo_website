@@ -1,6 +1,6 @@
 <template>
   <div class="signInWrapper">
-    <h1>Welcome to CUO</h1>
+    <h1 style="text-align:center">Welcome to CUO</h1>
 
     <div class="inputWrapper">
       <div class="loginTitle">
@@ -47,12 +47,13 @@ export default {
 
 <style lang="scss">
 .signInWrapper {
-  width: 320px;
+  width: 450px;
   margin: auto;
   h1 {
     color: black;
     font-weight: 900;
-    margin-top: 80px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 30px;
   }
   .inputWrapper {
@@ -109,7 +110,8 @@ export default {
     .loginBtn {
       color: #2c3e50;
       font-size: 16px;
-      margin-top: 6px;
+      margin-top: 10px;
+      margin-bottom: 10px;
       background-color: white;
       padding: 8px 0;
       width: 100%;

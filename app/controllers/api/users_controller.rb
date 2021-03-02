@@ -39,7 +39,7 @@ class Api::UsersController < ApplicationController
 
     def user_params
       params.fetch(:user, {}).permit(
-        :username, :email, :password, :part, :likeBand, :message
+        :username, :email, :password, :part, :likeBand, :message, :studentId
       )
     end
     def render_status_404(exception)
