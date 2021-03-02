@@ -39,7 +39,7 @@ class Api::BandsController < ApplicationController
 
     def band_params
       params.fetch(:band, {}).permit(
-        :bandTitle, :bandContent
+        :bandTitle, :bandContent, :password, :message
       )
     end
     def render_status_404(exception)

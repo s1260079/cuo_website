@@ -6,8 +6,15 @@
         <v-text-field label="バンド名" single-line solo v-model="band.bandTitle"></v-text-field>
       </span>
        <div class="textarea-wrap">
-         <textarea placeholder="メンバー構成、一言"  rows="8" cols="80" v-model="band.bandContent" ></textarea>
+         <textarea placeholder="メンバー構成"  rows="8" cols="80" v-model="band.bandContent" ></textarea>
        </div>
+       <span class="item-name">
+        <v-text-field label="一言" single-line solo v-model="band.message"></v-text-field>
+       </span>
+       <v-text-field placeholder="ユーザーを　”編集、消去”　する際はここにパスワードを入力してください" single-line solo v-model="passwd2"></v-text-field>
+       <div class="alert">
+        <p>{{ message }}</p>
+      </div>
        <p style="text-align:center">
          <v-btn v-on:click="updateBand">Bandの情報を変更</v-btn>
        </p>
@@ -23,6 +30,8 @@
   export default {
     data: function () {
     return {
+      passwd2: '',
+      message: '',
       band: {}
     }
   },
@@ -35,7 +44,23 @@
       .get(`/api/bands/${this.$route.params.id}.json`)
       .then(response => (this.band = response.data))
       },
+      pass_vali() {
+      if(this.passwd2.length < 1) {
+        this.message = '※ パスワードを入力してください'
+        return true
+      }
+      else return false
+    },
+      pass12_vali() {
+      if(this.band.password != this.passwd2) {
+        this.message = '※ パスワードが登録済みパスワードと一致しません。'
+        return true
+      }
+      else return false
+    },
       updateBand() {
+        if( this.pass_vali() ) return
+        if( this.pass12_vali() ) return
         axios
         .put(`/api/bands/${this.$route.params.id}`, { band: this.band })
         .then(response => {
@@ -49,6 +74,8 @@
         });
       },
       deleteBand(id) {
+        if( this.pass_vali() ) return
+        if( this.pass12_vali() ) return
       axios.delete(`/api/bands/${id}`).then(res => {
         this.$router.push({ path: '/band' });
         })
@@ -79,4 +106,10 @@ textarea{
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+.alert {
+  height: 18px;
+  font-size: 12px;
+  text-align: left;
+  color: red;
+ }
 </style>

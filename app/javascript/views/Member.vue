@@ -12,9 +12,10 @@
       </thead>
       <tbody style="text-align:left">
         <tr v-for="user in users" :key="user.id" v-on:click="setUserInfo(user.id)">
-          <td>{{user.id}}</td>
+          <td>{{user.studentId}}</td>
           <td>{{user.username}}</td>
           <td>{{user.part}}</td>
+          <v-btn v-if='hantei' class="btn #e53935 red darken-1" v-on:click="deleteUser(user.id)">削除</v-btn>
         </tr>
       </tbody>
     </table>
@@ -35,7 +36,7 @@
             <div class="detail">
               ・一言：{{ userInfo.message }}
             </div>
-            <router-link :to="{ path: `/mypage/${userInfo.id}` }" class="btn" v-show="authenticatedUser">編集</router-link>
+             <v-btn v-if='hantei' class="btn #e53935 red darken-1" v-on:click="deleteUser(user.id)">削除</v-btn>
           </div>
         </div>
       </div>
@@ -53,6 +54,7 @@
     name: 'Home',
     data: function() {
       return {
+        hantei: '',
         use:'',
         email:'',
         userInfo: {},
@@ -70,6 +72,9 @@
         this.use = firebase.auth().currentUser;
         if (this.use != null) {
             this.email = this.use.email;
+            if(this.email == 's1260079@u-aizu.ac.jp'){
+              this.hantei= true;
+            }
         }
       },
       fetchUsers() {
@@ -93,20 +98,15 @@
       }
         });
       },
+      deleteUser(id) {
+      axios.delete(`/api/users/${id}`).then(res => {
+        this.users = [];
+        this.userInfo = '';
+        this.userInfoBool = false;
+        this.fetchUsers();
+        })
+      },
     },
-    // updateUser() {
-    //     axios
-    //     .put(`/api/users/${this.$route.params.id}`, { user: this.user })
-    //     .then(response => {
-    //       this.$router.push({ path: '/mypage' });
-    //     })
-    //     .catch(error => {
-    //       console.error(error);
-    //       if (error.response.data && error.response.data.errors) {
-    //         this.errors = error.response.data.errors;
-    //       }
-    //     });
-    //   }
   }
 </script>
 
