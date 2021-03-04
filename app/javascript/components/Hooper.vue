@@ -1,4 +1,5 @@
 <template>
+<!-- カルーセルです -->
   <div class="container">
   <agile ref="main" :options="options1" :as-nav-for="asNavFor1" class="main">
     <div class="slide" v-for="(slide, index) in slides" :key="index" :class="`slide--${index}`">

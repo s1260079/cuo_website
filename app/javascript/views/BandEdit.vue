@@ -58,7 +58,7 @@
       }
       else return false
     },
-      updateBand() {
+      updateBand() {//バンド情報のアップデート
         if( this.pass_vali() ) return
         if( this.pass12_vali() ) return
         axios
@@ -73,7 +73,7 @@
           }
         });
       },
-      deleteBand(id) {
+      deleteBand(id) {//バンドの消去
         if( this.pass_vali() ) return
         if( this.pass12_vali() ) return
       axios.delete(`/api/bands/${id}`).then(res => {

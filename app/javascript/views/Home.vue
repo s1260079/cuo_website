@@ -1,5 +1,6 @@
 <template>
 <div class="c">
+  <p></p>
   <hooper></hooper>
   <h1 style="text-align:center">C U O</h1>
   <h1 style="text-align:center">  Comfort Utopian Orchestra</h1>

@@ -45,7 +45,7 @@
       this.firebase();
     },
     methods: {
-      firebase: function(){
+      firebase: function(){//ログインしたユーザーのメールアドレスをもらう
         this.use = firebase.auth().currentUser;
         if (this.use != null) {
             this.email = this.use.email;
@@ -54,7 +54,7 @@
             }
         }
       },
-      fetchBands() {
+      fetchBands() {//データベースから登録バンドの情報をひっぱる
         axios.get('/api/bands').then((res) => {
           for(var i = 0; i < res.data.bands.length; i++) {
             this.bands.push(res.data.bands[i]);
@@ -63,13 +63,7 @@
           console.log(error);
         });
       },
-      setBandInfo(id){
-        axios.get(`api/bands/${id}.json`).then(res => {
-          this.bandInfo = res.data;
-          this.bandInfoBool = true;
-        });
-      },
-      deleteBand(id) {
+      deleteBand(id) {//バンドの消去
       axios.delete(`/api/bands/${id}`).then(res => {
         this.$router.push({ path: '/band' });
         this.bands = [];
