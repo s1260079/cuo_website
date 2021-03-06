@@ -54060,3 +54060,2894 @@ Migrating to AddColumnTitle (20210302062451)
   [1m[35m (0.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('5277929974492897470')[0m
   [1m[35m (6.6ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
   [1m[35m (9.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/member" for 172.30.0.1 at 2021-03-05 01:14:31 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (5.4ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (11.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/member"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 172.30.0.1 at 2021-03-05 01:16:45 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 301.7ms | Allocations: 2437)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3571ms (Views: 3567.8ms | ActiveRecord: 0.0ms | Allocations: 13711)
+
+
+Started GET "/packs/js/hello_vue-a925379c42df0e46dc67.js" for 172.30.0.1 at 2021-03-05 01:16:49 +0900
+Started GET "/packs/js/application-c0e74f334ce7e7f30c77.js" for 172.30.0.1 at 2021-03-05 01:16:49 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/hello_vue-a925379c42df0e46dc67.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (7.5ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-c0e74f334ce7e7f30c77.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/packs/js/hello_vue-a925379c42df0e46dc67.js" for 172.30.0.1 at 2021-03-05 01:16:49 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/hello_vue-a925379c42df0e46dc67.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 172.30.0.1 at 2021-03-05 01:18:12 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 116.4ms | Allocations: 2352)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 310ms (Views: 307.6ms | ActiveRecord: 0.0ms | Allocations: 6728)
+
+
+Started GET "/packs/js/hello_vue-a925379c42df0e46dc67.js" for 172.30.0.1 at 2021-03-05 01:18:12 +0900
+Started GET "/packs/js/application-c0e74f334ce7e7f30c77.js" for 172.30.0.1 at 2021-03-05 01:18:12 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/hello_vue-a925379c42df0e46dc67.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-c0e74f334ce7e7f30c77.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/packs/js/hello_vue-a925379c42df0e46dc67.js" for 172.30.0.1 at 2021-03-05 01:18:13 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/hello_vue-a925379c42df0e46dc67.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 172.30.0.1 at 2021-03-05 01:23:07 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (5.3ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (13.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 218.9ms | Allocations: 2596)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 843ms (Views: 803.9ms | ActiveRecord: 0.0ms | Allocations: 11172)
+
+
+Started GET "/packs/js/application-c0e74f334ce7e7f30c77.js" for 172.30.0.1 at 2021-03-05 01:23:09 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/packs/js/hello_vue-a925379c42df0e46dc67.js" for 172.30.0.1 at 2021-03-05 01:23:09 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-c0e74f334ce7e7f30c77.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (1.4ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/hello_vue-a925379c42df0e46dc67.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/packs/js/hello_vue-a925379c42df0e46dc67.js" for 172.30.0.1 at 2021-03-05 01:23:09 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/hello_vue-a925379c42df0e46dc67.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 172.30.0.1 at 2021-03-05 01:23:50 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 90.3ms | Allocations: 2356)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 240ms (Views: 231.2ms | ActiveRecord: 0.0ms | Allocations: 6752)
+
+
+Started GET "/packs/js/application-c0e74f334ce7e7f30c77.js" for 172.30.0.1 at 2021-03-05 01:23:50 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/packs/js/hello_vue-a925379c42df0e46dc67.js" for 172.30.0.1 at 2021-03-05 01:23:50 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-c0e74f334ce7e7f30c77.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/hello_vue-a925379c42df0e46dc67.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 172.30.0.1 at 2021-03-05 01:24:05 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 144.3ms | Allocations: 2354)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 343ms (Views: 341.9ms | ActiveRecord: 0.0ms | Allocations: 6719)
+
+
+Started GET "/packs/js/application-c0e74f334ce7e7f30c77.js" for 172.30.0.1 at 2021-03-05 01:24:06 +0900
+Started GET "/packs/js/hello_vue-a925379c42df0e46dc67.js" for 172.30.0.1 at 2021-03-05 01:24:06 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-c0e74f334ce7e7f30c77.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (3.0ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/hello_vue-a925379c42df0e46dc67.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 172.30.0.1 at 2021-03-05 01:26:00 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (14.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/index.html.erb within layouts/application (Duration: 183.9ms | Allocations: 2594)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 897ms (Views: 857.6ms | ActiveRecord: 0.0ms | Allocations: 11160)
+
+
+Started GET "/packs/js/application-c0e74f334ce7e7f30c77.js" for 172.30.0.1 at 2021-03-05 01:26:02 +0900
+Started GET "/packs/js/hello_vue-a925379c42df0e46dc67.js" for 172.30.0.1 at 2021-03-05 01:26:02 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (58.4ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/hello_vue-a925379c42df0e46dc67.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (1.1ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-c0e74f334ce7e7f30c77.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/packs/js/hello_vue-a925379c42df0e46dc67.js" for 172.30.0.1 at 2021-03-05 01:26:03 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/hello_vue-a925379c42df0e46dc67.js"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 172.30.0.1 at 2021-03-05 01:37:18 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.5ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 1df366e3d2eb917d3961
+Version: webpack 4.46.0
+Time: 52465ms
+Built at: 03/05/2021 1:38:29 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-abd763a6528fd6804c3a.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-abd763a6528fd6804c3a.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-abd763a6528fd6804c3a.js js/hello_vue-abd763a6528fd6804c3a.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 72107.3ms | Allocations: 3905)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 72555ms (Views: 72552.9ms | ActiveRecord: 0.0ms | Allocations: 8278)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 01:39:34 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (124.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 233.6ms | Allocations: 8457)
+Completed 200 OK in 318ms (Views: 88.8ms | ActiveRecord: 182.3ms | Allocations: 10683)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 01:39:36 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 6.9ms | Allocations: 240)
+Completed 200 OK in 61ms (Views: 19.9ms | ActiveRecord: 1.8ms | Allocations: 2085)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 01:39:37 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 44ms (Views: 12.1ms | ActiveRecord: 0.8ms | Allocations: 1432)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 01:39:38 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 14ms (Views: 5.3ms | ActiveRecord: 1.0ms | Allocations: 1439)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 01:39:41 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.7ms | Allocations: 168)
+Completed 200 OK in 14ms (Views: 5.7ms | ActiveRecord: 1.1ms | Allocations: 1442)
+
+
+Started GET "/api/bands" for 172.30.0.1 at 2021-03-05 01:39:42 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::BandsController#index as JSON
+  Rendering api/bands/index.json.jbuilder
+  [1m[36mBand Load (6.9ms)[0m  [1m[34mSELECT `bands`.* FROM `bands`[0m
+  ↳ app/views/api/bands/index.json.jbuilder:2
+  Rendered api/bands/index.json.jbuilder (Duration: 38.3ms | Allocations: 5722)
+Completed 200 OK in 66ms (Views: 38.6ms | ActiveRecord: 12.6ms | Allocations: 7165)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 01:39:45 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 7.0ms | Allocations: 999)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.9ms | Allocations: 1651)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:13:20 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (7.9ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:14:32 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.9ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 045eb920ac64a8a0bdb1
+Version: webpack 4.46.0
+Time: 87130ms
+Built at: 03/05/2021 2:15:15 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-32ef06f843020a26a716.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-32ef06f843020a26a716.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-32ef06f843020a26a716.js js/hello_vue-32ef06f843020a26a716.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+ERROR in ./app/javascript/views/Member.vue?vue&type=script&lang=js& (./node_modules/babel-loader/lib??ref--8-0!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/views/Member.vue?vue&type=script&lang=js&)
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /var/src/app/app/javascript/views/Member.vue: Unexpected token (71:13)
+
+  69 |         users: [
+  70 |           {
+> 71 |           id = '',
+     |              ^
+  72 |           username = '',
+  73 |           part = '',
+  74 |           studentId = '',
+    at Parser._raise (/var/src/app/node_modules/@babel/parser/lib/index.js:776:17)
+    at Parser.raiseWithData (/var/src/app/node_modules/@babel/parser/lib/index.js:769:17)
+    at Parser.raise (/var/src/app/node_modules/@babel/parser/lib/index.js:737:17)
+    at Parser.unexpected (/var/src/app/node_modules/@babel/parser/lib/index.js:9253:16)
+    at Parser.checkExpressionErrors (/var/src/app/node_modules/@babel/parser/lib/index.js:9341:12)
+    at Parser.parseMaybeAssign (/var/src/app/node_modules/@babel/parser/lib/index.js:10105:12)
+    at Parser.parseExpressionBase (/var/src/app/node_modules/@babel/parser/lib/index.js:10023:23)
+    at allowInAnd (/var/src/app/node_modules/@babel/parser/lib/index.js:10017:39)
+    at Parser.allowInAnd (/var/src/app/node_modules/@babel/parser/lib/index.js:11711:16)
+    at Parser.parseExpression (/var/src/app/node_modules/@babel/parser/lib/index.js:10017:17)
+    at Parser.parseReturnStatement (/var/src/app/node_modules/@babel/parser/lib/index.js:12215:28)
+    at Parser.parseStatementContent (/var/src/app/node_modules/@babel/parser/lib/index.js:11894:21)
+    at Parser.parseStatement (/var/src/app/node_modules/@babel/parser/lib/index.js:11846:17)
+    at Parser.parseBlockOrModuleBlockBody (/var/src/app/node_modules/@babel/parser/lib/index.js:12428:25)
+    at Parser.parseBlockBody (/var/src/app/node_modules/@babel/parser/lib/index.js:12419:10)
+    at Parser.parseBlock (/var/src/app/node_modules/@babel/parser/lib/index.js:12403:10)
+    at Parser.parseFunctionBody (/var/src/app/node_modules/@babel/parser/lib/index.js:11389:24)
+    at Parser.parseFunctionBodyAndFinish (/var/src/app/node_modules/@babel/parser/lib/index.js:11373:10)
+    at withTopicForbiddingContext (/var/src/app/node_modules/@babel/parser/lib/index.js:12561:12)
+    at Parser.withTopicForbiddingContext (/var/src/app/node_modules/@babel/parser/lib/index.js:11686:14)
+    at Parser.parseFunction (/var/src/app/node_modules/@babel/parser/lib/index.js:12560:10)
+    at Parser.parseFunctionOrFunctionSent (/var/src/app/node_modules/@babel/parser/lib/index.js:10827:17)
+    at Parser.parseExprAtom (/var/src/app/node_modules/@babel/parser/lib/index.js:10663:21)
+    at Parser.parseExprSubscripts (/var/src/app/node_modules/@babel/parser/lib/index.js:10318:23)
+    at Parser.parseUpdate (/var/src/app/node_modules/@babel/parser/lib/index.js:10298:21)
+    at Parser.parseMaybeUnary (/var/src/app/node_modules/@babel/parser/lib/index.js:10276:23)
+    at Parser.parseExprOps (/var/src/app/node_modules/@babel/parser/lib/index.js:10141:23)
+    at Parser.parseMaybeConditional (/var/src/app/node_modules/@babel/parser/lib/index.js:10115:23)
+    at Parser.parseMaybeAssign (/var/src/app/node_modules/@babel/parser/lib/index.js:10078:21)
+    at allowInAnd (/var/src/app/node_modules/@babel/parser/lib/index.js:10045:39)
+    at Parser.allowInAnd (/var/src/app/node_modules/@babel/parser/lib/index.js:11717:12)
+    at Parser.parseMaybeAssignAllowIn (/var/src/app/node_modules/@babel/parser/lib/index.js:10045:17)
+    at Parser.parseObjectProperty (/var/src/app/node_modules/@babel/parser/lib/index.js:11260:101)
+    at Parser.parseObjPropValue (/var/src/app/node_modules/@babel/parser/lib/index.js:11285:100)
+    at Parser.parsePropertyDefinition (/var/src/app/node_modules/@babel/parser/lib/index.js:11209:10)
+    at Parser.parseObjectLike (/var/src/app/node_modules/@babel/parser/lib/index.js:11099:25)
+ @ ./app/javascript/views/Member.vue?vue&type=script&lang=js& 1:0-182 1:198-201 1:203-382 1:203-382
+ @ ./app/javascript/views/Member.vue
+ @ ./app/javascript/routes/router.js
+ @ ./app/javascript/packs/hello_vue.js
+
+  Rendered home/index.html.erb within layouts/application (Duration: 116423.3ms | Allocations: 9116)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 116846ms (Views: 116840.8ms | ActiveRecord: 0.0ms | Allocations: 13483)
+
+
+[Webpacker] Compilation failed:
+Hash: 552f76e2e31bf57e15ea
+Version: webpack 4.46.0
+Time: 60665ms
+Built at: 03/05/2021 2:16:18 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-68e40b356c40857f5b01.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-68e40b356c40857f5b01.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-68e40b356c40857f5b01.js js/hello_vue-68e40b356c40857f5b01.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+ERROR in ./app/javascript/views/Member.vue?vue&type=script&lang=js& (./node_modules/babel-loader/lib??ref--8-0!./node_modules/vue-loader/lib??vue-loader-options!./app/javascript/views/Member.vue?vue&type=script&lang=js&)
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /var/src/app/app/javascript/views/Member.vue: Unexpected token (71:13)
+
+  69 |         users: [
+  70 |           {
+> 71 |           id = '',
+     |              ^
+  72 |           username = '',
+  73 |           part = '',
+  74 |           studentId = '',
+    at Parser._raise (/var/src/app/node_modules/@babel/parser/lib/index.js:776:17)
+    at Parser.raiseWithData (/var/src/app/node_modules/@babel/parser/lib/index.js:769:17)
+    at Parser.raise (/var/src/app/node_modules/@babel/parser/lib/index.js:737:17)
+    at Parser.unexpected (/var/src/app/node_modules/@babel/parser/lib/index.js:9253:16)
+    at Parser.checkExpressionErrors (/var/src/app/node_modules/@babel/parser/lib/index.js:9341:12)
+    at Parser.parseMaybeAssign (/var/src/app/node_modules/@babel/parser/lib/index.js:10105:12)
+    at Parser.parseExpressionBase (/var/src/app/node_modules/@babel/parser/lib/index.js:10023:23)
+    at allowInAnd (/var/src/app/node_modules/@babel/parser/lib/index.js:10017:39)
+    at Parser.allowInAnd (/var/src/app/node_modules/@babel/parser/lib/index.js:11711:16)
+    at Parser.parseExpression (/var/src/app/node_modules/@babel/parser/lib/index.js:10017:17)
+    at Parser.parseReturnStatement (/var/src/app/node_modules/@babel/parser/lib/index.js:12215:28)
+    at Parser.parseStatementContent (/var/src/app/node_modules/@babel/parser/lib/index.js:11894:21)
+    at Parser.parseStatement (/var/src/app/node_modules/@babel/parser/lib/index.js:11846:17)
+    at Parser.parseBlockOrModuleBlockBody (/var/src/app/node_modules/@babel/parser/lib/index.js:12428:25)
+    at Parser.parseBlockBody (/var/src/app/node_modules/@babel/parser/lib/index.js:12419:10)
+    at Parser.parseBlock (/var/src/app/node_modules/@babel/parser/lib/index.js:12403:10)
+    at Parser.parseFunctionBody (/var/src/app/node_modules/@babel/parser/lib/index.js:11389:24)
+    at Parser.parseFunctionBodyAndFinish (/var/src/app/node_modules/@babel/parser/lib/index.js:11373:10)
+    at withTopicForbiddingContext (/var/src/app/node_modules/@babel/parser/lib/index.js:12561:12)
+    at Parser.withTopicForbiddingContext (/var/src/app/node_modules/@babel/parser/lib/index.js:11686:14)
+    at Parser.parseFunction (/var/src/app/node_modules/@babel/parser/lib/index.js:12560:10)
+    at Parser.parseFunctionOrFunctionSent (/var/src/app/node_modules/@babel/parser/lib/index.js:10827:17)
+    at Parser.parseExprAtom (/var/src/app/node_modules/@babel/parser/lib/index.js:10663:21)
+    at Parser.parseExprSubscripts (/var/src/app/node_modules/@babel/parser/lib/index.js:10318:23)
+    at Parser.parseUpdate (/var/src/app/node_modules/@babel/parser/lib/index.js:10298:21)
+    at Parser.parseMaybeUnary (/var/src/app/node_modules/@babel/parser/lib/index.js:10276:23)
+    at Parser.parseExprOps (/var/src/app/node_modules/@babel/parser/lib/index.js:10141:23)
+    at Parser.parseMaybeConditional (/var/src/app/node_modules/@babel/parser/lib/index.js:10115:23)
+    at Parser.parseMaybeAssign (/var/src/app/node_modules/@babel/parser/lib/index.js:10078:21)
+    at allowInAnd (/var/src/app/node_modules/@babel/parser/lib/index.js:10045:39)
+    at Parser.allowInAnd (/var/src/app/node_modules/@babel/parser/lib/index.js:11717:12)
+    at Parser.parseMaybeAssignAllowIn (/var/src/app/node_modules/@babel/parser/lib/index.js:10045:17)
+    at Parser.parseObjectProperty (/var/src/app/node_modules/@babel/parser/lib/index.js:11260:101)
+    at Parser.parseObjPropValue (/var/src/app/node_modules/@babel/parser/lib/index.js:11285:100)
+    at Parser.parsePropertyDefinition (/var/src/app/node_modules/@babel/parser/lib/index.js:11209:10)
+    at Parser.parseObjectLike (/var/src/app/node_modules/@babel/parser/lib/index.js:11099:25)
+ @ ./app/javascript/views/Member.vue?vue&type=script&lang=js& 1:0-182 1:198-201 1:203-382 1:203-382
+ @ ./app/javascript/views/Member.vue
+ @ ./app/javascript/routes/router.js
+ @ ./app/javascript/packs/hello_vue.js
+
+  Rendered home/index.html.erb within layouts/application (Duration: 107048.9ms | Allocations: 9646)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 107410ms (Views: 107405.9ms | ActiveRecord: 0.0ms | Allocations: 14017)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:17:43 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 60ebefadf2f80bd173c9
+Version: webpack 4.46.0
+Time: 51073ms
+Built at: 03/05/2021 2:18:57 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-83e800ca11251828dd8e.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-83e800ca11251828dd8e.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-83e800ca11251828dd8e.js js/hello_vue-83e800ca11251828dd8e.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 73987.2ms | Allocations: 3875)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74229ms (Views: 74222.8ms | ActiveRecord: 0.0ms | Allocations: 8246)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 02:19:16 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (201.2ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 210.4ms | Allocations: 998)
+Completed 200 OK in 219ms (Views: 15.4ms | ActiveRecord: 201.2ms | Allocations: 1664)
+
+
+Started GET "/api/bands" for 172.30.0.1 at 2021-03-05 02:22:30 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::BandsController#index as JSON
+  Rendering api/bands/index.json.jbuilder
+  [1m[36mBand Load (2.7ms)[0m  [1m[34mSELECT `bands`.* FROM `bands`[0m
+  ↳ app/views/api/bands/index.json.jbuilder:2
+  Rendered api/bands/index.json.jbuilder (Duration: 9.5ms | Allocations: 1036)
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 2.7ms | Allocations: 1686)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 02:22:31 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 10.0ms | Allocations: 999)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 1.0ms | Allocations: 1650)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 02:22:43 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (7.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 42.7ms | Allocations: 1000)
+Completed 200 OK in 64ms (Views: 52.6ms | ActiveRecord: 7.5ms | Allocations: 1646)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:23:22 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 28f6b714f0ed25a44177
+Version: webpack 4.46.0
+Time: 48895ms
+Built at: 03/05/2021 2:24:30 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-1eea03cb0560716c5691.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-1eea03cb0560716c5691.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-1eea03cb0560716c5691.js js/hello_vue-1eea03cb0560716c5691.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 69037.3ms | Allocations: 3864)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 69386ms (Views: 69379.5ms | ActiveRecord: 0.0ms | Allocations: 8225)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 02:24:40 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 8.5ms | Allocations: 1000)
+Completed 200 OK in 17ms (Views: 13.4ms | ActiveRecord: 1.4ms | Allocations: 1665)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:30:14 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:30:18 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (17.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: ad97e65a1fb7c75f1643
+Version: webpack 4.46.0
+Time: 95253ms
+Built at: 03/05/2021 2:32:25 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-2875b297d05ed1efc99a.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-2875b297d05ed1efc99a.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-2875b297d05ed1efc99a.js js/hello_vue-2875b297d05ed1efc99a.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+[Webpacker] Hash: ad97e65a1fb7c75f1643
+Version: webpack 4.46.0
+Time: 96716ms
+Built at: 03/05/2021 2:32:25 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-2875b297d05ed1efc99a.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-2875b297d05ed1efc99a.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-2875b297d05ed1efc99a.js js/hello_vue-2875b297d05ed1efc99a.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 129195.9ms | Allocations: 5437)
+  Rendered home/index.html.erb within layouts/application (Duration: 133705.8ms | Allocations: 10808)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 129795ms (Views: 129790.7ms | ActiveRecord: 0.0ms | Allocations: 13064)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 134378ms (Views: 134376.2ms | ActiveRecord: 0.0ms | Allocations: 19373)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 02:33:31 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (152.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 159.9ms | Allocations: 998)
+Completed 200 OK in 177ms (Views: 20.6ms | ActiveRecord: 152.0ms | Allocations: 1646)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:44:30 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (50.2ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:44:47 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (20.0ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 34b7f5420d2c57276a97
+Version: webpack 4.46.0
+Time: 82928ms
+Built at: 03/05/2021 2:46:25 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-b754a1de292222e191fb.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-b754a1de292222e191fb.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-b754a1de292222e191fb.js js/hello_vue-b754a1de292222e191fb.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 34b7f5420d2c57276a97
+Version: webpack 4.46.0
+Time: 73320ms
+Built at: 03/05/2021 2:46:26 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-b754a1de292222e191fb.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-b754a1de292222e191fb.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-b754a1de292222e191fb.js js/hello_vue-b754a1de292222e191fb.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 116526.6ms | Allocations: 10007)
+  Rendered home/index.html.erb within layouts/application (Duration: 100330.4ms | Allocations: 8477)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 117085ms (Views: 117082.1ms | ActiveRecord: 0.0ms | Allocations: 16516)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 100710ms (Views: 100698.9ms | ActiveRecord: 0.0ms | Allocations: 14183)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 02:46:45 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (57.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 65.4ms | Allocations: 998)
+Completed 200 OK in 74ms (Views: 13.9ms | ActiveRecord: 57.5ms | Allocations: 1656)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 02:47:35 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (12.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 28ms (Views: 8.4ms | ActiveRecord: 12.1ms | Allocations: 1419)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 02:47:37 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 16ms (Views: 6.0ms | ActiveRecord: 1.3ms | Allocations: 1419)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 02:47:38 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.4ms | Allocations: 167)
+Completed 200 OK in 14ms (Views: 5.9ms | ActiveRecord: 1.1ms | Allocations: 1421)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:48:18 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 964fa97c5cf36dbee253
+Version: webpack 4.46.0
+Time: 62275ms
+Built at: 03/05/2021 2:49:48 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-b66224c1a1218c498d5a.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-b66224c1a1218c498d5a.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-b66224c1a1218c498d5a.js js/hello_vue-b66224c1a1218c498d5a.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 90716.6ms | Allocations: 3950)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 90951ms (Views: 90948.7ms | ActiveRecord: 0.0ms | Allocations: 8314)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 02:50:11 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 10.2ms | Allocations: 999)
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 2.5ms | Allocations: 1653)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 02:50:29 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 4.6ms | ActiveRecord: 1.2ms | Allocations: 1427)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 02:50:30 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.4ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 4.0ms | ActiveRecord: 1.0ms | Allocations: 1423)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 02:50:31 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 20ms (Views: 7.1ms | ActiveRecord: 1.3ms | Allocations: 1427)
+
+
+Started POST "/api/users" for 172.30.0.1 at 2021-03-05 02:51:24 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"yohey", "password"=>"[FILTERED]", "email"=>"m222222@u-aizu.ac.jp", "part"=>"", "likeBand"=>"", "message"=>"", "studentId"=>"m222222"}}
+  [1m[35m (2.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:15:in `create'
+  [1m[36mUser Create (70.9ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `password`, `created_at`, `updated_at`, `likeBand`, `part`, `message`, `studentId`) VALUES ('yohey', 'm222222@u-aizu.ac.jp', 'hogehoge', '2021-03-04 17:51:24.241026', '2021-03-04 17:51:24.241026', '', '', '', 'm222222')[0m
+  ↳ app/controllers/api/users_controller.rb:15:in `create'
+  [1m[35m (21.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/users_controller.rb:15:in `create'
+Completed 204 No Content in 238ms (ActiveRecord: 95.4ms | Allocations: 3140)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 02:51:28 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (4.7ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 12.9ms | Allocations: 1084)
+Completed 200 OK in 21ms (Views: 14.9ms | ActiveRecord: 4.7ms | Allocations: 1747)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 02:51:30 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 15ms (Views: 6.3ms | ActiveRecord: 0.9ms | Allocations: 1425)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 02:51:31 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 17ms (Views: 6.6ms | ActiveRecord: 1.0ms | Allocations: 1429)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 02:51:32 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.6ms | Allocations: 167)
+Completed 200 OK in 15ms (Views: 6.8ms | ActiveRecord: 1.1ms | Allocations: 1423)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:54:03 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 63be7da8726d8d4d1050
+Version: webpack 4.46.0
+Time: 45247ms
+Built at: 03/05/2021 2:55:05 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-ad76c203bc585396af21.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-ad76c203bc585396af21.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-ad76c203bc585396af21.js js/hello_vue-ad76c203bc585396af21.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 62307.6ms | Allocations: 3846)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62518ms (Views: 62514.8ms | ActiveRecord: 0.0ms | Allocations: 8213)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 02:55:14 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 135.1ms | Allocations: 1340)
+Completed 200 OK in 264ms (Views: 260.3ms | ActiveRecord: 1.4ms | Allocations: 2188)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:56:54 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: a235226647abd100112e
+Version: webpack 4.46.0
+Time: 50695ms
+Built at: 03/05/2021 2:58:03 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-4533757512e8d23cd2d6.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-4533757512e8d23cd2d6.js.map  6.74 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-4533757512e8d23cd2d6.js js/hello_vue-4533757512e8d23cd2d6.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 69945.0ms | Allocations: 3890)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 70428ms (Views: 70424.1ms | ActiveRecord: 0.0ms | Allocations: 8265)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 02:59:43 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 7.7ms | Allocations: 1084)
+Completed 200 OK in 15ms (Views: 12.0ms | ActiveRecord: 1.1ms | Allocations: 1737)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 02:59:49 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 2c1d18a720dff7b0350a
+Version: webpack 4.46.0
+Time: 45737ms
+Built at: 03/05/2021 3:00:55 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-6cab5e3af9aae0d901e4.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-6cab5e3af9aae0d901e4.js.map  6.75 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-6cab5e3af9aae0d901e4.js js/hello_vue-6cab5e3af9aae0d901e4.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 66420.4ms | Allocations: 3859)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 66773ms (Views: 66771.6ms | ActiveRecord: 0.0ms | Allocations: 8219)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 03:01:04 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (15.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 71.3ms | Allocations: 1094)
+Completed 200 OK in 112ms (Views: 73.0ms | ActiveRecord: 15.0ms | Allocations: 1741)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 03:01:10 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 15ms (Views: 6.6ms | ActiveRecord: 0.9ms | Allocations: 1435)
+
+
+Started GET "/api/users/6.json" for 172.30.0.1 at 2021-03-05 03:01:11 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.6ms | Allocations: 167)
+Completed 200 OK in 15ms (Views: 6.1ms | ActiveRecord: 0.8ms | Allocations: 1427)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 03:01:12 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 5.1ms | ActiveRecord: 1.0ms | Allocations: 1423)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 03:01:13 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 14ms (Views: 5.0ms | ActiveRecord: 0.8ms | Allocations: 1427)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 03:05:31 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 295994234bff65714685
+Version: webpack 4.46.0
+Time: 52692ms
+Built at: 03/05/2021 3:06:45 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-a9f6b35c4005137c2c27.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-a9f6b35c4005137c2c27.js.map  6.75 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-a9f6b35c4005137c2c27.js js/hello_vue-a9f6b35c4005137c2c27.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 74334.0ms | Allocations: 3900)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74770ms (Views: 74767.1ms | ActiveRecord: 0.0ms | Allocations: 8269)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 03:07:35 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 8.9ms | Allocations: 1084)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 1.4ms | Allocations: 1741)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 03:09:04 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: da4b64e9fe3146972cad
+Version: webpack 4.46.0
+Time: 58414ms
+Built at: 03/05/2021 3:10:31 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-1287f14cbb815d61a006.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-1287f14cbb815d61a006.js.map  6.75 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-1287f14cbb815d61a006.js js/hello_vue-1287f14cbb815d61a006.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 87969.3ms | Allocations: 3910)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 88423ms (Views: 88421.2ms | ActiveRecord: 0.0ms | Allocations: 8279)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 03:10:58 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 21.6ms | Allocations: 1084)
+Completed 200 OK in 33ms (Views: 28.9ms | ActiveRecord: 1.8ms | Allocations: 1745)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 03:11:20 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.6ms | Allocations: 167)
+Completed 200 OK in 21ms (Views: 6.0ms | ActiveRecord: 3.1ms | Allocations: 1425)
+
+
+Started GET "/api/users/6.json" for 172.30.0.1 at 2021-03-05 03:11:24 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.7ms | Allocations: 167)
+Completed 200 OK in 15ms (Views: 5.3ms | ActiveRecord: 1.5ms | Allocations: 1425)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 03:11:25 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.4ms | Allocations: 167)
+Completed 200 OK in 18ms (Views: 8.3ms | ActiveRecord: 1.8ms | Allocations: 1427)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 03:11:26 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 1.1ms | Allocations: 167)
+Completed 200 OK in 23ms (Views: 8.1ms | ActiveRecord: 4.8ms | Allocations: 1429)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 03:11:27 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.6ms | Allocations: 167)
+Completed 200 OK in 18ms (Views: 7.1ms | ActiveRecord: 1.3ms | Allocations: 1425)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 04:01:43 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (117.1ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 96fdb359e64b2a0b6aaf
+Version: webpack 4.46.0
+Time: 47864ms
+Built at: 03/05/2021 4:02:54 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-1268d2f29d078a499119.js  6.08 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-1268d2f29d078a499119.js.map  6.75 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-1268d2f29d078a499119.js js/hello_vue-1268d2f29d078a499119.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 71256.9ms | Allocations: 3885)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 72031ms (Views: 72027.3ms | ActiveRecord: 0.0ms | Allocations: 8241)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:03:03 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (20.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 30.7ms | Allocations: 1083)
+Completed 200 OK in 44ms (Views: 18.5ms | ActiveRecord: 20.1ms | Allocations: 1734)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 04:03:49 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 4f15635a85eff5d94a3e
+Version: webpack 4.46.0
+Time: 41159ms
+Built at: 03/05/2021 4:04:45 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-77cef6ddbceabadf91c9.js  6.08 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-77cef6ddbceabadf91c9.js.map  6.75 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-77cef6ddbceabadf91c9.js js/hello_vue-77cef6ddbceabadf91c9.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 56439.1ms | Allocations: 3830)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56894ms (Views: 56890.5ms | ActiveRecord: 0.0ms | Allocations: 8190)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:04:55 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 11.3ms | Allocations: 1084)
+Completed 200 OK in 20ms (Views: 15.6ms | ActiveRecord: 1.8ms | Allocations: 1749)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 04:04:59 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 14ms (Views: 5.4ms | ActiveRecord: 1.4ms | Allocations: 1421)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:05:00 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 5.7ms | ActiveRecord: 1.0ms | Allocations: 1431)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 04:05:01 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 33ms (Views: 23.2ms | ActiveRecord: 0.6ms | Allocations: 1433)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 04:06:42 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: c403c101d6b96a2ec472
+Version: webpack 4.46.0
+Time: 52124ms
+Built at: 03/05/2021 4:07:50 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-9bef760dd5b8d6a6c44b.js  6.08 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-9bef760dd5b8d6a6c44b.js.map  6.75 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-9bef760dd5b8d6a6c44b.js js/hello_vue-9bef760dd5b8d6a6c44b.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 69128.0ms | Allocations: 3860)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 69420ms (Views: 69417.7ms | ActiveRecord: 0.0ms | Allocations: 8215)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:08:00 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 9.3ms | Allocations: 1084)
+Completed 200 OK in 18ms (Views: 14.2ms | ActiveRecord: 0.9ms | Allocations: 1739)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 04:09:13 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: a8d31c228014ed605c35
+Version: webpack 4.46.0
+Time: 56440ms
+Built at: 03/05/2021 4:10:26 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-91a52242e21d014b55b6.js  6.08 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-91a52242e21d014b55b6.js.map  6.75 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-91a52242e21d014b55b6.js js/hello_vue-91a52242e21d014b55b6.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 73618.1ms | Allocations: 3887)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74260ms (Views: 74259.2ms | ActiveRecord: 0.0ms | Allocations: 8251)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:10:39 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 10.0ms | Allocations: 1084)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 1.3ms | Allocations: 1751)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:10:46 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.7ms | Allocations: 167)
+Completed 200 OK in 20ms (Views: 7.0ms | ActiveRecord: 1.1ms | Allocations: 1423)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 04:10:47 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 12ms (Views: 4.9ms | ActiveRecord: 0.7ms | Allocations: 1427)
+
+
+Started GET "/api/users/6.json" for 172.30.0.1 at 2021-03-05 04:10:48 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 24ms (Views: 15.0ms | ActiveRecord: 1.3ms | Allocations: 1425)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:10:52 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.6ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 5.5ms | ActiveRecord: 0.8ms | Allocations: 1421)
+
+
+Started GET "/api/users/6.json" for 172.30.0.1 at 2021-03-05 04:12:19 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.4ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 5.1ms | ActiveRecord: 0.7ms | Allocations: 1435)
+
+
+Started GET "/api/users/6.json" for 172.30.0.1 at 2021-03-05 04:12:20 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 15ms (Views: 7.0ms | ActiveRecord: 0.8ms | Allocations: 1423)
+
+
+Started PUT "/api/users/6" for 172.30.0.1 at 2021-03-05 04:12:31 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#update as JSON
+  Parameters: {"user"=>{"id"=>6, "username"=>"yohey", "email"=>"m222222@u-aizu.ac.jp", "password"=>"[FILTERED]", "part"=>"Dr", "likeBand"=>"", "message"=>"", "studentId"=>"m222222"}, "id"=>"6"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:22:in `update'
+[31mUnpermitted parameter: :id[0m
+  [1m[35m (6.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  [1m[36mUser Update (101.5ms)[0m  [1m[33mUPDATE `users` SET `users`.`part` = 'Dr', `users`.`updated_at` = '2021-03-04 19:12:31.672689' WHERE `users`.`id` = 6[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  [1m[35m (64.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  Rendering api/users/index.json.jbuilder
+  Rendered api/users/index.json.jbuilder (Duration: 0.3ms | Allocations: 38)
+Completed 200 OK in 287ms (Views: 9.0ms | ActiveRecord: 173.3ms | Allocations: 4036)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:12:32 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 10.2ms | Allocations: 1084)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 1.4ms | Allocations: 1745)
+
+
+Started GET "/api/users/6.json" for 172.30.0.1 at 2021-03-05 04:12:33 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 11ms (Views: 4.7ms | ActiveRecord: 0.7ms | Allocations: 1419)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 04:12:35 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 6.2ms | ActiveRecord: 1.0ms | Allocations: 1433)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:13:32 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 12.5ms | Allocations: 1084)
+Completed 200 OK in 27ms (Views: 22.9ms | ActiveRecord: 1.2ms | Allocations: 1737)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 04:13:34 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.4ms | Allocations: 167)
+Completed 200 OK in 15ms (Views: 6.9ms | ActiveRecord: 1.0ms | Allocations: 1427)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 04:13:35 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 18ms (Views: 7.1ms | ActiveRecord: 1.7ms | Allocations: 1425)
+
+
+Started PUT "/api/users/3" for 172.30.0.1 at 2021-03-05 04:13:41 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#update as JSON
+  Parameters: {"user"=>{"id"=>3, "username"=>"小野瀬智久", "email"=>"s1240006@u-aizu.ac.jp", "password"=>"[FILTERED]", "part"=>"Gt", "likeBand"=>"", "message"=>"", "studentId"=>"s1240006"}, "id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:22:in `update'
+[31mUnpermitted parameter: :id[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  [1m[36mUser Update (7.9ms)[0m  [1m[33mUPDATE `users` SET `users`.`part` = 'Gt', `users`.`updated_at` = '2021-03-04 19:13:41.500168' WHERE `users`.`id` = 3[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  [1m[35m (21.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  Rendering api/users/index.json.jbuilder
+  Rendered api/users/index.json.jbuilder (Duration: 0.3ms | Allocations: 38)
+Completed 200 OK in 101ms (Views: 12.9ms | ActiveRecord: 31.0ms | Allocations: 4011)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:13:41 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 10.2ms | Allocations: 1084)
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 0.9ms | Allocations: 1739)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:13:43 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 18ms (Views: 8.1ms | ActiveRecord: 0.9ms | Allocations: 1425)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:14:28 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 15.6ms | Allocations: 1084)
+Completed 200 OK in 30ms (Views: 22.4ms | ActiveRecord: 1.1ms | Allocations: 1729)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:14:33 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 2.3ms | Allocations: 167)
+Completed 200 OK in 35ms (Views: 10.3ms | ActiveRecord: 1.3ms | Allocations: 1423)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 04:14:34 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.7ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 5.6ms | ActiveRecord: 1.0ms | Allocations: 1429)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:14:35 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 14ms (Views: 6.5ms | ActiveRecord: 1.0ms | Allocations: 1425)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:14:36 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 12ms (Views: 5.0ms | ActiveRecord: 1.2ms | Allocations: 1423)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:14:37 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 19ms (Views: 6.1ms | ActiveRecord: 1.1ms | Allocations: 1429)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:15:46 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 9.0ms | Allocations: 1084)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 1.1ms | Allocations: 1731)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:15:48 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.6ms | Allocations: 167)
+Completed 200 OK in 19ms (Views: 6.4ms | ActiveRecord: 1.9ms | Allocations: 1427)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:15:49 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 15ms (Views: 5.6ms | ActiveRecord: 0.9ms | Allocations: 1441)
+
+
+Started PUT "/api/users/4" for 172.30.0.1 at 2021-03-05 04:15:54 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#update as JSON
+  Parameters: {"user"=>{"id"=>4, "username"=>"kosai", "email"=>"s@u-aizu.ac.jp", "password"=>"[FILTERED]", "part"=>"Gt", "likeBand"=>"", "message"=>"", "studentId"=>"s1260155"}, "id"=>"4"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:22:in `update'
+[31mUnpermitted parameter: :id[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  [1m[36mUser Update (3.6ms)[0m  [1m[33mUPDATE `users` SET `users`.`part` = 'Gt', `users`.`updated_at` = '2021-03-04 19:15:54.540379' WHERE `users`.`id` = 4[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  [1m[35m (13.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  Rendering api/users/index.json.jbuilder
+  Rendered api/users/index.json.jbuilder (Duration: 0.2ms | Allocations: 38)
+Completed 200 OK in 91ms (Views: 8.5ms | ActiveRecord: 18.9ms | Allocations: 4000)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:15:54 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 12.0ms | Allocations: 1084)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 1.0ms | Allocations: 1740)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 04:15:56 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 19ms (Views: 7.1ms | ActiveRecord: 1.6ms | Allocations: 1421)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:17:07 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 8.0ms | Allocations: 1084)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.8ms | Allocations: 1731)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 04:17:09 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 1.0ms | Allocations: 167)
+Completed 200 OK in 33ms (Views: 13.2ms | ActiveRecord: 0.9ms | Allocations: 1417)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 04:17:10 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 5.5ms | ActiveRecord: 0.7ms | Allocations: 1421)
+
+
+Started PUT "/api/users/5" for 172.30.0.1 at 2021-03-05 04:17:29 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#update as JSON
+  Parameters: {"user"=>{"id"=>5, "username"=>"菊池浩太朗", "email"=>"s1240111@gmail.com", "password"=>"[FILTERED]", "part"=>"Ba", "likeBand"=>"", "message"=>"", "studentId"=>"s1240111"}, "id"=>"5"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:22:in `update'
+[31mUnpermitted parameter: :id[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  [1m[36mUser Update (4.3ms)[0m  [1m[33mUPDATE `users` SET `users`.`part` = 'Ba', `users`.`updated_at` = '2021-03-04 19:17:29.537215' WHERE `users`.`id` = 5[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  [1m[35m (13.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/users_controller.rb:23:in `update'
+  Rendering api/users/index.json.jbuilder
+  Rendered api/users/index.json.jbuilder (Duration: 0.3ms | Allocations: 38)
+Completed 200 OK in 61ms (Views: 7.3ms | ActiveRecord: 19.1ms | Allocations: 4007)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:17:29 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 10.2ms | Allocations: 1084)
+Completed 200 OK in 21ms (Views: 16.9ms | ActiveRecord: 1.4ms | Allocations: 1743)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 04:17:33 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 5.3ms | ActiveRecord: 1.0ms | Allocations: 1429)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:17:34 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.4ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 5.7ms | ActiveRecord: 0.7ms | Allocations: 1435)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 04:17:35 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 14ms (Views: 6.0ms | ActiveRecord: 1.0ms | Allocations: 1415)
+
+
+Started GET "/api/users/6.json" for 172.30.0.1 at 2021-03-05 04:17:36 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 16ms (Views: 7.0ms | ActiveRecord: 0.9ms | Allocations: 1415)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:17:42 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (24.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 242.5ms | Allocations: 1084)
+Completed 200 OK in 278ms (Views: 248.6ms | ActiveRecord: 24.0ms | Allocations: 1739)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 04:17:46 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: a8ad526c7d887acd7348
+Version: webpack 4.46.0
+Time: 45856ms
+Built at: 03/05/2021 4:18:58 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-177a07f597bb1ed26301.js  6.08 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-177a07f597bb1ed26301.js.map  6.75 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-177a07f597bb1ed26301.js js/hello_vue-177a07f597bb1ed26301.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 71835.3ms | Allocations: 3871)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 72341ms (Views: 72339.7ms | ActiveRecord: 0.0ms | Allocations: 8228)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:19:13 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 8.4ms | Allocations: 1084)
+Completed 200 OK in 14ms (Views: 10.1ms | ActiveRecord: 2.9ms | Allocations: 1737)
+
+
+Started GET "/api/users/6.json" for 172.30.0.1 at 2021-03-05 04:19:49 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.4ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 5.0ms | ActiveRecord: 0.9ms | Allocations: 1419)
+
+
+Started GET "/api/users/3.json" for 172.30.0.1 at 2021-03-05 04:19:50 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 16ms (Views: 6.4ms | ActiveRecord: 0.8ms | Allocations: 1439)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:19:51 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.5ms | Allocations: 167)
+Completed 200 OK in 16ms (Views: 6.8ms | ActiveRecord: 0.7ms | Allocations: 1421)
+
+
+Started GET "/api/users/5.json" for 172.30.0.1 at 2021-03-05 04:19:52 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.4ms | Allocations: 167)
+Completed 200 OK in 13ms (Views: 5.0ms | ActiveRecord: 1.0ms | Allocations: 1427)
+
+
+Started GET "/api/users/6.json" for 172.30.0.1 at 2021-03-05 04:19:55 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.4ms | Allocations: 167)
+Completed 200 OK in 16ms (Views: 6.7ms | ActiveRecord: 0.7ms | Allocations: 1427)
+
+
+Started GET "/api/users/4.json" for 172.30.0.1 at 2021-03-05 04:19:56 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/api/users_controller.rb:10:in `show'
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (Duration: 0.3ms | Allocations: 167)
+Completed 200 OK in 11ms (Views: 4.0ms | ActiveRecord: 1.4ms | Allocations: 1427)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:20:17 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 10.0ms | Allocations: 1084)
+Completed 200 OK in 20ms (Views: 15.8ms | ActiveRecord: 1.1ms | Allocations: 1733)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:20:34 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 9.3ms | Allocations: 1084)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.8ms | Allocations: 1731)
+
+
+Started GET "/api/bands" for 172.30.0.1 at 2021-03-05 04:20:42 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::BandsController#index as JSON
+  Rendering api/bands/index.json.jbuilder
+  [1m[36mBand Load (43.2ms)[0m  [1m[34mSELECT `bands`.* FROM `bands`[0m
+  ↳ app/views/api/bands/index.json.jbuilder:2
+  Rendered api/bands/index.json.jbuilder (Duration: 55.1ms | Allocations: 1036)
+Completed 200 OK in 65ms (Views: 19.8ms | ActiveRecord: 43.2ms | Allocations: 1693)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:20:48 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 9.3ms | Allocations: 1084)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 0.9ms | Allocations: 1727)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:21:15 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 14.3ms | Allocations: 1084)
+Completed 200 OK in 28ms (Views: 24.6ms | ActiveRecord: 1.4ms | Allocations: 1739)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 04:22:17 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 178444ac5b98b2e221ae
+Version: webpack 4.46.0
+Time: 66910ms
+Built at: 03/05/2021 4:23:47 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-cc0073151d4311e57a64.js  6.08 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-cc0073151d4311e57a64.js.map  6.75 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-cc0073151d4311e57a64.js js/hello_vue-cc0073151d4311e57a64.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 91003.9ms | Allocations: 3953)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 91481ms (Views: 91477.2ms | ActiveRecord: 0.0ms | Allocations: 8316)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:24:04 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 11.5ms | Allocations: 1084)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 1.0ms | Allocations: 1725)
+
+
+Started GET "/api/bands" for 172.30.0.1 at 2021-03-05 04:24:35 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::BandsController#index as JSON
+  Rendering api/bands/index.json.jbuilder
+  [1m[36mBand Load (2.5ms)[0m  [1m[34mSELECT `bands`.* FROM `bands`[0m
+  ↳ app/views/api/bands/index.json.jbuilder:2
+  Rendered api/bands/index.json.jbuilder (Duration: 8.9ms | Allocations: 1036)
+Completed 200 OK in 16ms (Views: 12.5ms | ActiveRecord: 2.5ms | Allocations: 1677)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:24:49 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 10.4ms | Allocations: 1084)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.8ms | Allocations: 1747)
+
+
+Started GET "/" for 172.30.0.1 at 2021-03-05 04:25:52 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /var/src/app/public/packs
+[Webpacker] Hash: 69c75f7453d4efffe3e1
+Version: webpack 4.46.0
+Time: 50002ms
+Built at: 03/05/2021 4:27:03 AM
+                                                               Asset      Size       Chunks                         Chunk Names
+                              js/application-07e792d2b65403c647a1.js   124 KiB  application  [emitted] [immutable]  application
+                          js/application-07e792d2b65403c647a1.js.map   139 KiB  application  [emitted] [dev]        application
+                                js/hello_vue-0d49b3e7049840656f30.js  6.07 MiB    hello_vue  [emitted] [immutable]  hello_vue
+                            js/hello_vue-0d49b3e7049840656f30.js.map  6.75 MiB    hello_vue  [emitted] [dev]        hello_vue
+                                                       manifest.json  1.36 KiB               [emitted]              
+media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg  54.6 KiB               [emitted]              
+ media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG  8.39 MiB               [emitted]              
+ media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG  6.98 MiB               [emitted]              
+  media/components/images/band6-f171793d57b9956fc211a3643b773f29.JPG  6.97 MiB               [emitted]              
+  media/components/images/band7-759f9673b9d1e69fe10488eb2837c919.JPG   6.4 MiB               [emitted]              
+  media/components/images/band9-0e52c88bfa1a4d04933ee74e02c577bc.JPG  6.01 MiB               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+Entrypoint hello_vue = js/hello_vue-0d49b3e7049840656f30.js js/hello_vue-0d49b3e7049840656f30.js.map
+[./app/javascript/app.vue] 1.06 KiB {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=script&lang=js&] 364 bytes {hello_vue} [built]
+[./app/javascript/app.vue?vue&type=template&id=6fb8108a&scoped=true&] 213 bytes {hello_vue} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_vue.js] 3.15 KiB {hello_vue} [built]
+[./app/javascript/plugins/vuetify.js] 185 bytes {hello_vue} [built]
+[./app/javascript/routes/router.js] 1.17 KiB {hello_vue} [built]
+[./app/javascript/store/store.js] 176 bytes {hello_vue} [built]
+[./app/javascript/views/Band.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/BandCreate.vue] 1.19 KiB {hello_vue} [built]
+[./app/javascript/views/BandEdit.vue] 1.18 KiB {hello_vue} [built]
+[./app/javascript/views/Home.vue] 1.16 KiB {hello_vue} [built]
+[./app/javascript/views/LiveInfo.vue] 1.18 KiB {hello_vue} [built]
+    + 186 hidden modules
+
+  Rendered home/index.html.erb within layouts/application (Duration: 72973.1ms | Allocations: 3893)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73584ms (Views: 73580.9ms | ActiveRecord: 0.0ms | Allocations: 8255)
+
+
+Started GET "/api/users" for 172.30.0.1 at 2021-03-05 04:27:34 +0900
+Cannot render console from 172.30.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Api::UsersController#index as JSON
+  Rendering api/users/index.json.jbuilder
+  [1m[36mUser Load (83.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/views/api/users/index.json.jbuilder:2
+  Rendered api/users/index.json.jbuilder (Duration: 91.9ms | Allocations: 1087)
+Completed 200 OK in 100ms (Views: 14.1ms | ActiveRecord: 83.9ms | Allocations: 1746)
+
+
