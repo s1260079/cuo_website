@@ -3,7 +3,7 @@ class Api::UsersController < ApplicationController
     rescue_from Exception, with: :render_status_500
     rescue_from ActiveRecord::RecordNotFound, with: :render_status_404
     def index
-      @users = User.all
+      @users = User.order("studentId")
       render "index", formats: :json, handlers: "jbuilder"
     end
     def show

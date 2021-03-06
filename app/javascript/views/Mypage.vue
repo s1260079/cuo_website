@@ -3,6 +3,7 @@
     <h1 style="text-align:center">Mypage</h1>
     <div class="box">
       <span class="item-name">
+        <v-text-field placeholder="学籍番号" single-line solo v-model="user.studentId"></v-text-field>
         <v-text-field placeholder="名前" single-line solo v-model="user.username"></v-text-field>
         <v-text-field placeholder="パート" single-line solo v-model="user.part" ></v-text-field>
       </span>
