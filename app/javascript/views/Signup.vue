@@ -174,6 +174,7 @@ export default {
       background-color: white;
       padding: 8px 0;
       width: 100%;
+      text-decoration:none;
       border-color: rgb(201, 205, 210);
     }
     .loginBtn {

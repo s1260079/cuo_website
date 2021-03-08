@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <h1 style="text-align:center">Mypage</h1>
-    <div class="box">
+    <h1 style="text-align:center" v-if="hantei" >Mypage</h1>
+    <div class="box" v-if="hantei">
       <span class="item-name">
         <v-text-field placeholder="学籍番号" single-line solo v-model="user.studentId"></v-text-field>
         <v-text-field placeholder="名前" single-line solo v-model="user.username"></v-text-field>
@@ -25,6 +25,25 @@
         <p class="created">{{ created }}</p>
       </div>
     </div>
+
+    <h1 style="text-align:center" v-if="!hantei">Profile</h1>
+    <div class="box" v-if="!hantei">
+      <p style="text-align:center">
+        学籍番号　:　{{user.studentId}}
+      </p>
+      <p style="text-align:center">
+        名前　:　{{user.username}}
+      </p>
+      <p style="text-align:center">
+        パート　:　{{user.part}}
+      </p>
+      <p style="text-align:center">
+        好きなバンド/ジャンル　：　{{user.likeBand}}
+      </p>
+      <p style="text-align:center">
+        一言　：　{{user.message}}
+      </p>
+    </div>
   </div>
 </template>
 
@@ -34,6 +53,9 @@
   export default {
     data: function () {
     return {
+      use: '',
+      email: '',
+      hantei: '',
       passwd2: '',
       user: {},
       message: '',
@@ -42,12 +64,24 @@
   },
     mounted () {
       this.getUser()
+      this.firebase()
     },
     methods: {
+      firebase: function(){//ログインしたユーザーのメールアドレスをもらう
+        this.use = firebase.auth().currentUser;
+        if (this.use != null) {
+            this.email = this.use.email;
+        }
+      },
       getUser(){
         axios
       .get(`/api/users/${this.$route.params.id}.json`)
-      .then(response => (this.user = response.data))
+      .then(response => {
+        this.user = response.data
+        if(this.email == response.data.email){
+            this.hantei= true;
+        }
+       })
       },
       updateUser() {
         axios

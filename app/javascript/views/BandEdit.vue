@@ -11,7 +11,7 @@
        <span class="item-name">
         <v-text-field label="一言" single-line solo v-model="band.message"></v-text-field>
        </span>
-       <v-text-field placeholder="ユーザーを　”編集、消去”　する際はここにパスワードを入力してください" single-line solo v-model="passwd2"></v-text-field>
+       <v-text-field placeholder="バンドを　”編集、消去”　する際はここにパスワードを入力してください" single-line solo v-model="passwd2"></v-text-field>
        <div class="alert">
         <p>{{ message }}</p>
       </div>
