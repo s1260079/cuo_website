@@ -13,7 +13,7 @@
        <div class="textarea-wrap">
          <textarea placeholder="一言"  rows="8" cols="80" v-model="user.message"></textarea>
        </div>
-       <v-text-field placeholder="ユーザーを　”消去”　する際はここにパスワードを入力してください" single-line solo v-model="passwd2"></v-text-field>
+       <v-text-field type='password' placeholder="ユーザーを　”消去”　する際はここにパスワードを入力してください" single-line solo v-model="passwd2"></v-text-field>
        <p style="text-align:center">
          <v-btn type='password' class="resisterBtn" v-on:click="updateUser">入力完了</v-btn>
        </p>
@@ -118,6 +118,17 @@
       .then(res => {
         this.$router.push({ path: '/member' });
         })
+        firebase
+        .auth()
+        .currentUser.delete()
+        .then(function(res) {
+          console.log("currentUser.delete", res);
+          alert("アカウントを削除しました。");
+          vm.$router.go();
+        })
+        .catch(function(error) {
+          console.log(error);
+        });
       }
     }
   }

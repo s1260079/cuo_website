@@ -12,15 +12,15 @@
     },
     "hello_vue": {
       "js": [
-        "/packs/js/hello_vue-031f03cf26f6681045fd.js"
+        "/packs/js/hello_vue-615cb4e844d1a039c719.js"
       ],
       "js.map": [
-        "/packs/js/hello_vue-031f03cf26f6681045fd.js.map"
+        "/packs/js/hello_vue-615cb4e844d1a039c719.js.map"
       ]
     }
   },
-  "hello_vue.js": "/packs/js/hello_vue-031f03cf26f6681045fd.js",
-  "hello_vue.js.map": "/packs/js/hello_vue-031f03cf26f6681045fd.js.map",
+  "hello_vue.js": "/packs/js/hello_vue-615cb4e844d1a039c719.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-615cb4e844d1a039c719.js.map",
   "media/components/images/Twitter.jpg": "/packs/media/components/images/Twitter-4e1426a9753feab730b745e0e9aae80a.jpg",
   "media/components/images/band11.JPG": "/packs/media/components/images/band11-66ac5a7ce086d278c7a70e8a3efe498b.JPG",
   "media/components/images/band12.JPG": "/packs/media/components/images/band12-2e26aeda145470f97d38d082cfa6acb0.JPG",
