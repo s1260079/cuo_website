@@ -113,6 +113,7 @@ export default {
       margin-top: 10px;
       margin-bottom: 10px;
       background-color: white;
+      text-decoration:none;
       padding: 8px 0;
       width: 100%;
       border-color: rgb(201, 205, 210);

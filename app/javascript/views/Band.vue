@@ -2,20 +2,22 @@
   <div class="container">
     <h1 style="text-align:center">Band Data</h1>
     <div style="text-align:center">
-      <router-link to="/bandcreate" v-if='showbtn'>Bandの登録はこちら</router-link>
+      <v-btn elevation="1" large class="btn #e53935 white" v-if='showbtn'>
+        <router-link to="/bandcreate" v-if='showbtn' class="d">Bandの登録はこちら</router-link>
+      </v-btn>
       <div class="c"></div>
     </div>
     <div>
       <span class="c" v-for="band in bands" :key="band.id">
         <router-link :to="{ path: `/bandedit/${band.id}` }" style="text-decoration:none;" >
-        <div style="text-align:center" class="table">
+        <v-card style="text-align:center" class="table">
             <p class="title-font">{{ band.bandTitle }}</p>
             <p>{{ band.bandContent }}</p>
             <p>一言：{{ band.message }}</p>
             <p style="text-align:center">
                <v-btn v-if='hantei' class="btn #e53935 red darken-1" v-on:click="deleteBand(band.id)">削除</v-btn>
             </p>
-        </div>
+        </v-card>
         </router-link>
         <div class="c"></div>
       </span>
@@ -90,12 +92,12 @@ h1 {
   color: black;
   text-decoration:none;
   background-color: #EEEEEE;
-  margin-top: 20px;
-  width: 600px;
+  margin-top: 30px;
+  width: 400px;
   margin: auto;
 }
 .c {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 p {
   white-space: pre-wrap;
@@ -104,4 +106,8 @@ p {
   font-weight: 600;
   font-size: 20px;
 }
+.d{
+    color: black;
+    text-decoration:none;
+  }
 </style>

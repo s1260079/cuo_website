@@ -2,12 +2,12 @@
   <div class="container">
     <h1 style="text-align:center">Members</h1>
     <div class="c">
-    <table style="width:100%" >
+    <v-simple-table show-expand style="width:100%" >
       <thead style="text-align:center">
         <tr>
-          <th>Id</th>
-          <th>Name</th>
-          <th>Part</th>
+          <th style="text-align:center">Id</th>
+          <th style="text-align:center">Name</th>
+          <th style="text-align:center">Part</th>
         </tr>
       </thead>
       <tbody style="text-align:center">
@@ -17,7 +17,6 @@
           <td>{{user.studentId}}</td>
           <td>{{user.username}}</td>
           <td>{{user.part}}</td>
-          <v-btn v-if='hantei' class="btn #e53935 red darken-1" v-on:click="deleteUser(user.id)">削除</v-btn>
         </tr>
         <!-- 学部 -->
         <div class="d" style="text-align:left">学部生</div>
@@ -57,39 +56,7 @@
           <v-btn v-if='hantei' class="btn #e53935 red darken-1" v-on:click="deleteUser(user.id)">削除</v-btn>
         </tr>
       </tbody>
-    </table>
-    <div  style="text-align:center" class="row" v-show="userInfoBool">
-      <div>
-        <div>
-          <div style="text-align:center">
-            <p> </p>
-            <span class='e'>
-              【{{ userInfo.username }}】
-            </span>
-            <div >
-              <div class='e'>
-                ・パート：
-              </div>
-              <p> {{ userInfo.part }}</p>
-            </div>
-            <div >
-              <div class='e'>
-                ・好きなバンド、ジャンルなど：
-              </div>
-              <p> {{ userInfo.likeBand }}</p>
-            </div>
-            <div>
-              <div class='e'>
-                ・一言：
-              </div>
-              <p>{{ userInfo.message }} </p>
-            </div>
-             <router-link :to="{ path: `/mypage/${userInfo.id}` }" v-if="authenticatedUser">編集</router-link>
-             <v-btn v-if='hantei' class="btn #e53935 red darken-1" v-on:click="deleteUser(user.id)">削除</v-btn>
-            </div>
-        </div>
-      </div>
-    </div>
+    </v-simple-table>
     </div>
   </div>
 </template>
@@ -161,16 +128,17 @@
           });
       },
       setUserInfo(id){
-        this.authenticatedUser = '';
-        axios.get(`api/users/${id}.json`).then(res => {
-          this.userInfo = res.data;
-          this.userInfoBool = true;
-          if (this.userInfo.email == this.email) {
-             this.authenticatedUser = true;
-          }else {
-             this.authenticatedUser = false;
-      }
-        });
+        this.$router.push({ path: `mypage/${id}` });
+      //   this.authenticatedUser = '';
+      //   axios.get(`api/users/${id}.json`).then(res => {
+      //     this.userInfo = res.data;
+      //     this.userInfoBool = true;
+      //     if (this.userInfo.email == this.email) {
+      //        this.authenticatedUser = true;
+      //     }else {
+      //        this.authenticatedUser = false;
+      // }
+      //   });
       },
       deleteUser(id) {
       axios.delete(`/api/users/${id}`).then(res => {
@@ -185,8 +153,13 @@
 </script>
 
 <style scoped>
-thead{
+/* thead{
   background-color: #555555
+} */
+.e{
+  text-decoration:none;
+  color: black;
+  background-color: #F8F8FF;
 }
 .c{
   width: 800px;
@@ -200,9 +173,9 @@ h1 {
     margin-bottom: 40px;
     font-size: 30px;
   }
-table {
+/* table {
   background-color: #EEEEEE;
-}
+} */
 .row {
   background-color: white;
 }
